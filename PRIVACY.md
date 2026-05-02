@@ -37,9 +37,7 @@ None. The extension does not use external services, CDNs, analytics, error repor
 | Permission | Purpose |
 |---|---|
 | `declarativeNetRequest` (Chrome) / `webRequest`+`webRequestBlocking` (Firefox) | Modify HTTP request headers according to user-defined rules |
-| `declarativeNetRequestFeedback` (Chrome) | Show matched rules in the optional Activity log inside the popup |
 | `storage` | Persist user-defined profiles and settings locally |
-| `tabs` | Read the current tab id when the user enables "lock to current tab" on a profile |
 | `host_permissions: <all_urls>` | Allow rules to target any URL the user configures (no data is read from those URLs) |
 
 ## Your data, your control
